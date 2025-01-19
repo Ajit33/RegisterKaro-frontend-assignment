@@ -6,7 +6,7 @@ import client from "../assets/client.png";
 import stability from "../assets/stability.png";
 const Home = () => {
   return (
-    <div id="home" className="relative min-h-[587px] w-full overflow-hidden">
+    <div id="/" className="relative min-h-[587px] w-full overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-r from-[#fff1ec] via-[#fff6f6] to-[#f0f7ff]" />
       {/* content start form here...... */}
       <div className="relative max-w-full mx-auto px-4 sm:px-6 lg:px-8 pt-12">

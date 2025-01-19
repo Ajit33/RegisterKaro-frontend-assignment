@@ -1,4 +1,5 @@
 import NavBar from "../components/Nav/NavBar"
+import TrustedBrand from "../components/TrustedBrand"
 import Home from "./Home"
 
 
@@ -7,7 +8,7 @@ const LandingPage = () => {
     <div className="max-w-[screen] mx-auto ">
       <NavBar />
       <Home />
-      <h1>neww</h1>
+      <TrustedBrand />
     </div>
   )
 }
