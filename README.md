@@ -54,4 +54,6 @@ Typescript
 ## Thoughtprocess
 
 Nothing thought process is required as it a ui heavy assignmnet,but i put all my frontend skill to build as much similar to the figma design.
-## TechStack
+## PageSpeed Insights scores
+![Screenshot 2025-01-20 050826](https://github.com/user-attachments/assets/40be9a1d-2b07-48cf-bf14-88d01f2d1e76)
+![Screenshot 2025-01-20 050847](https://github.com/user-attachments/assets/e938a0b4-5cc8-486d-975b-b1e5d4b0ffc6)
