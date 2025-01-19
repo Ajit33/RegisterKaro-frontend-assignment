@@ -1,0 +1,60 @@
+@keyframes float {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(50px, 25px);
+  }
+  50% {
+    transform: translate(0, 50px);
+  }
+  75% {
+    transform: translate(-50px, 25px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.animate-float {
+  animation: float var(--speed) infinite ease-in-out;
+  animation-delay: var(--delay);
+}
+
+.logo:hover {
+  z-index: 10;
+}
+
+/* Additional styles for React */
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+

@@ -7,6 +7,8 @@ import TrustedBrand from "../components/TrustedBrand";
 import Service from "./Service";
 import WhyChooseSection from "../components/Why-choose";
 import VedioIntroduction from "../components/VedioIntroduction";
+import HappyClients from "../components/HappyClients";
+import StepProcess from "../components/Steps";
 
 const LandingPage = () => {
   return (
@@ -24,6 +26,8 @@ const LandingPage = () => {
       </div>
       <WhyChooseSection />
       <VedioIntroduction />
+      <HappyClients />
+      <StepProcess />
       <div id="blog">
         <Blog />
       </div>
