@@ -1,7 +1,7 @@
 import oracle from "../assets/oracle.png";
 import segment from "../assets/segment.png";
 import samsung from "../assets/sumsung.png";
-import monday from "../assets/monday.com.png";
+import monday from "../assets/Monday.png";
 import morpheus from "../assets/Morpheus.png";
 
 interface BrandImage {
