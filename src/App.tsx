@@ -1,10 +1,13 @@
-
+import { BrowserRouter as Router} from "react-router-dom"
+import LandingPage from "./Pages/LandingPage"
 
 function App() {
  
 
   return (
-    <h1 className='font-bold text-green-500 text-[2opx]'>hiii bro</h1>
+     <Router>
+      <LandingPage />
+     </Router>
   )
 }
 
