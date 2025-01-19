@@ -9,6 +9,13 @@ import WhyChooseSection from "../components/Why-choose";
 import VedioIntroduction from "../components/VedioIntroduction";
 import HappyClients from "../components/HappyClients";
 import StepProcess from "../components/Steps";
+import TestimonialSlider from "../components/TestimonialSlidder";
+import FAQ from "../components/Faq";
+import AppDownloadSection from "../components/AppDownlad";
+import MetricsDisplay from "../components/NumberDisplay";
+import Contact from "../components/Contact";
+import Companies from "../components/Companies";
+import Footer from "../components/Footer";
 
 const LandingPage = () => {
   return (
@@ -31,6 +38,13 @@ const LandingPage = () => {
       <div id="blog">
         <Blog />
       </div>
+      <TestimonialSlider />
+      <FAQ />
+      <AppDownloadSection />
+      <MetricsDisplay />
+      <Contact />
+      <Companies />
+      <Footer />
     </div>
   );
 };
