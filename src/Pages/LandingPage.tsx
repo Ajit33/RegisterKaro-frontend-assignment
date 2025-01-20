@@ -35,9 +35,7 @@ const LandingPage = () => {
       <VedioIntroduction />
       <HappyClients />
       <StepProcess />
-      <div id="blog">
         <Blog />
-      </div>
       <TestimonialSlider />
       <FAQ />
       <AppDownloadSection />

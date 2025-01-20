@@ -22,44 +22,35 @@ import Logo20 from "../assets/Logo20.png";
 import Logo21 from "../assets/Logo21.png";
 import Logo22 from "../assets/Logo22.png";
 import Logo23 from "../assets/Logo23.png";
+import { ArrowRight } from "lucide-react";
 
 export default function LogosGrid() {
   const [showAll, setShowAll] = useState(false);
 
-  // Logic to control displayed logos
-  const displayedLogos = showAll ? logos : logos.slice(0, 12);
+
+  const displayedLogos = showAll ? logos : logos.slice(0, 12)
 
   return (
-    <div className="text-center">
-<div
-        className="grid gap-4 mx-auto px-4"
-        style={{
-          gridTemplateColumns: "repeat(auto-fit, minmax(100px, 1fr))",
-          maxWidth: "1200px",
-        }}
-      >
-        {displayedLogos.map((logo, index) => (
-          <div
-            key={index}
-            className="bg-white rounded-full shadow-md flex items-center justify-center p-4"
-          >
-            <img
-              src={logo.src}
-              alt={logo.alt}
-              className="h-16 w-16 object-contain"
-            />
-          </div>
-        ))}
+    <section className="w-full">
+      <div className="container px-4 md:px-6">
+        <div className="mx-auto mt-12 grid max-w-5xl grid-cols-2 gap-8 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+          {displayedLogos.map((logo, index) => (
+            <div
+              key={index}
+              className="flex aspect-square items-center justify-center rounded-full bg-white p-4 shadow-sm transition-shadow hover:shadow-md"
+            >
+              <img src={logo.src || "/placeholder.svg"} alt={logo.alt} className="aspect-square w-12 object-contain" />
+            </div>
+          ))}
+        </div>
+        <div className="mt-12 flex  justify-center">
+          <button  onClick={() => setShowAll(!showAll)} className="group text-primary">
+            Show more
+          </button>
+        </div>
       </div>
-
-      <button
-        onClick={() => setShowAll(!showAll)}
-        className="mt-6 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
-      >
-        {showAll ? "View Less" : "View More"}
-      </button>
-    </div>
-  );
+    </section>
+  )
 }
 
 const logos = [

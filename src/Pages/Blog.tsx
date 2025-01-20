@@ -105,7 +105,7 @@ const BlogSection = () => {
   };
 
   return (
-    <div id="#blog" className="max-w-7xl mx-auto px-4 py-12">
+    <div id="blog" className="max-w-7xl mx-auto px-4 py-12">
       <div className="text-center mb-12">
         <p className="text-orange-500 text-sm uppercase tracking-wider mb-2">
           EXPLORE OUR BLOGS
