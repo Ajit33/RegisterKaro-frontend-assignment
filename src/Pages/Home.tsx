@@ -101,13 +101,21 @@ const Home = () => {
               <button className="bg-[#1B395D] hover:bg-[#1B395D]/90 text-white px-6 py-3 rounded-md">
                 Talk An Expert
               </button>
-              <button className="border-[#1B395D] text-[#1B395D] hover:bg-[#1B395D]/10">
-                <Play className="w-4 h-4 mr-2" /> See how it works
-              </button>
+
+              <div className="flex justify-center">
+                <div className="flex items-center ml-2">
+                  <div className="bg-red-600 rounded-full p-1">
+                    <Play className="w-4 h-4 text-white" />
+                  </div>
+                </div>
+                <button className="text-[#1B395D] hover:bg-[#1B395D]/10 px-6 py-3 rounded-md flex items-center">
+                  See how it works
+                </button>
+              </div>
             </div>
           </div>
 
-          {/* Right column - Illustration */}
+          {/* Right column */}
           <div className="relative hidden lg:block w-[600px] h-[480px]">
             <img
               src={hero}
