@@ -22,7 +22,7 @@ import Logo20 from "../assets/Logo20.png";
 import Logo21 from "../assets/Logo21.png";
 import Logo22 from "../assets/Logo22.png";
 import Logo23 from "../assets/Logo23.png";
-import { ArrowRight } from "lucide-react";
+
 
 export default function LogosGrid() {
   const [showAll, setShowAll] = useState(false);
