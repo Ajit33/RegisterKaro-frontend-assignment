@@ -1,10 +1,9 @@
+// LandingPage.js
 import About from "./About";
 import Home from "./Home";
-
-import NavBar from "../components/Nav/NavBar";
 import Blog from "./Blog";
-import TrustedBrand from "../components/TrustedBrand";
 import Service from "./Service";
+import TrustedBrand from "../components/TrustedBrand";
 import WhyChooseSection from "../components/Why-choose";
 import VedioIntroduction from "../components/VedioIntroduction";
 import HappyClients from "../components/HappyClients";
@@ -20,7 +19,6 @@ import Footer from "../components/Footer";
 const LandingPage = () => {
   return (
     <div className="max-w-[screen] mx-auto">
-      <NavBar />
       <div id="/">
         <Home />
       </div>
@@ -35,7 +33,7 @@ const LandingPage = () => {
       <VedioIntroduction />
       <HappyClients />
       <StepProcess />
-        <Blog />
+      <Blog />
       <TestimonialSlider />
       <FAQ />
       <AppDownloadSection />
@@ -48,4 +46,5 @@ const LandingPage = () => {
 };
 
 export default LandingPage;
+
 

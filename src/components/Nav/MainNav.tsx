@@ -26,9 +26,9 @@ const services: NavItem[] = [
 
 const navItems: NavItem[] = [
   { title: "Home", id: "home", path: "/" },
-  { title: "Blog", id: "blog", path: "#blog" },
-  { title: "Contact Us", id: "contact", path: "#contact" },
-  { title: "About us", id: "about", path: "#about" },
+  { title: "Blog", id: "blog", path: "/blog" },
+  { title: "Contact Us", id: "contact", path: "/contact" },
+  { title: "About us", id: "about", path: "/about" },
 ];
 
 const MainNav = () => {

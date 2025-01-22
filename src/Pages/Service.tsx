@@ -3,7 +3,7 @@ import ServicesGrid from "../components/service/ServiceGrid"
 
 const Service = () => {
   return (
-    <div id="service">
+    <div>
       <ServicesGrid />
     </div>
   )
